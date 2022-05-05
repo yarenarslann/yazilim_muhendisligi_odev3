@@ -1,0 +1,1 @@
+README.md dosyasi olusturuldu.
