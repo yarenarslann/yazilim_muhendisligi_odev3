@@ -21,14 +21,15 @@ public class App {
     }
 
     public static void main(String[] args) {
-        int port =Integer.parseInt(System.getenv("PORT"));
-        port(port);
+        
         
         System.out.println(new App().getGreeting());
         Logger logger=LogManager.getLogger(App.class);
         logger.error("hello world");
 
-        
+        int port =Integer.parseInt(System.getenv("PORT"));
+        port(port);
+        logger.error("Current  port number:"+ port);
 
         
 
