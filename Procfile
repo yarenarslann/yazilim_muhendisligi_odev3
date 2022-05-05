@@ -1,0 +1,1 @@
+web: java -jar build/libs/yazilim_muhendisligi_odev3-all.jar
